@@ -30,6 +30,33 @@ net.addLink(r1,r4,intfName1 = 'r1-eth2',intfName2 = 'r4-eth2',cls = TCLink, bw =
 net.addLink(r2,r4,intfName1 = 'r2-eth0',intfName2 = 'r4-eth0',cls = TCLink, bw = 0.5,max_queue_size = 20,use_htb = True)
 net.addLink(r2,r3,intfName1 = 'r2-eth2',intfName2 = 'r3-eth2',cls = TCLink, bw = 1,max_queue_size = 20,use_htb = True)
 
+#net.addLink(hA,r1,intfName1 = 'hA-eth0',intfName2 = 'r1-eth0',cls = TCLink, bw = 1,max_queue_size = 40,use_htb = True)
+#net.addLink(hA,r2,intfName1 = 'hA-eth1',intfName2 = 'r2-eth1',cls = TCLink, bw = 1,max_queue_size = 40,use_htb = True)
+#net.addLink(hB,r3,intfName1 = 'hB-eth0',intfName2 = 'r3-eth0',cls = TCLink, bw = 1,max_queue_size = 40,use_htb = True)
+#net.addLink(hB,r4,intfName1 = 'hB-eth1',intfName2 = 'r4-eth1',cls = TCLink, bw = 1,max_queue_size = 40,use_htb = True)
+#net.addLink(r1,r3,intfName1 = 'r1-eth1',intfName2 = 'r3-eth1',cls = TCLink, bw = 0.5,max_queue_size = 40,use_htb = True)
+#net.addLink(r1,r4,intfName1 = 'r1-eth2',intfName2 = 'r4-eth2',cls = TCLink, bw = 1,max_queue_size = 40,use_htb = True)
+#net.addLink(r2,r4,intfName1 = 'r2-eth0',intfName2 = 'r4-eth0',cls = TCLink, bw = 0.5,max_queue_size = 40,use_htb = True)
+#net.addLink(r2,r3,intfName1 = 'r2-eth2',intfName2 = 'r3-eth2',cls = TCLink, bw = 1,max_queue_size = 40,use_htb = True)
+
+#net.addLink(hA,r1,intfName1 = 'hA-eth0',intfName2 = 'r1-eth0',cls = TCLink, bw = 1,max_queue_size = 60,use_htb = True)
+#net.addLink(hA,r2,intfName1 = 'hA-eth1',intfName2 = 'r2-eth1',cls = TCLink, bw = 1,max_queue_size = 60,use_htb = True)
+#net.addLink(hB,r3,intfName1 = 'hB-eth0',intfName2 = 'r3-eth0',cls = TCLink, bw = 1,max_queue_size = 60,use_htb = True)
+#net.addLink(hB,r4,intfName1 = 'hB-eth1',intfName2 = 'r4-eth1',cls = TCLink, bw = 1,max_queue_size = 60,use_htb = True)
+#net.addLink(r1,r3,intfName1 = 'r1-eth1',intfName2 = 'r3-eth1',cls = TCLink, bw = 0.5,max_queue_size = 60,use_htb = True)
+#net.addLink(r1,r4,intfName1 = 'r1-eth2',intfName2 = 'r4-eth2',cls = TCLink, bw = 1,max_queue_size = 60,use_htb = True)
+#net.addLink(r2,r4,intfName1 = 'r2-eth0',intfName2 = 'r4-eth0',cls = TCLink, bw = 0.5,max_queue_size = 60,use_htb = True)
+#net.addLink(r2,r3,intfName1 = 'r2-eth2',intfName2 = 'r3-eth2',cls = TCLink, bw = 1,max_queue_size = 60,use_htb = True)
+
+#net.addLink(hA,r1,intfName1 = 'hA-eth0',intfName2 = 'r1-eth0',cls = TCLink, bw = 1,max_queue_size = 100,use_htb = True)
+#net.addLink(hA,r2,intfName1 = 'hA-eth1',intfName2 = 'r2-eth1',cls = TCLink, bw = 1,max_queue_size = 100,use_htb = True)
+#net.addLink(hB,r3,intfName1 = 'hB-eth0',intfName2 = 'r3-eth0',cls = TCLink, bw = 1,max_queue_size = 100,use_htb = True)
+#net.addLink(hB,r4,intfName1 = 'hB-eth1',intfName2 = 'r4-eth1',cls = TCLink, bw = 1,max_queue_size = 100,use_htb = True)
+#net.addLink(r1,r3,intfName1 = 'r1-eth1',intfName2 = 'r3-eth1',cls = TCLink, bw = 0.5,max_queue_size = 100,use_htb = True)
+#net.addLink(r1,r4,intfName1 = 'r1-eth2',intfName2 = 'r4-eth2',cls = TCLink, bw = 1,max_queue_size = 100,use_htb = True)
+#net.addLink(r2,r4,intfName1 = 'r2-eth0',intfName2 = 'r4-eth0',cls = TCLink, bw = 0.5,max_queue_size = 100,use_htb = True)
+#net.addLink(r2,r3,intfName1 = 'r2-eth2',intfName2 = 'r3-eth2',cls = TCLink, bw = 1,max_queue_size = 100,use_htb = True)
+
 # Build network
 net.build()
 
